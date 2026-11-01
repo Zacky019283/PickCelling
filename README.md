@@ -8,9 +8,9 @@
 
 Originally ported from a Unity Editor tool, Pick-celling has evolved into a fully independent Windows application with expanded features, a sleek dark-mode interface, and no external engine dependencies.
 
-## ✨ Features
+## Features
 
-### 🛠️ Core Tools
+### Core Tools
 - **Paint, Erase, Fill, Line, Pick, & Blur**: A complete set of drawing tools. The Blur tool is specifically designed to only affect textured pixels, preserving transparency.
 - **Alpha Transparency**: Full control over brush opacity (0-255).
 - **Dithering Patterns**: Includes *Checkerboard 50%* and *Grid 25%* modes for retro-style color blending.
@@ -18,24 +18,24 @@ Originally ported from a Unity Editor tool, Pick-celling has evolved into a full
 - **Symmetry Mode**: Draw with Horizontal, Vertical, or Both mirroring active simultaneously.
 - **Transform**: Instantly Flip Horizontal, Flip Vertical, or Rotate 90 degrees.
 
-### 🎨 Canvas & Grid
+### Canvas & Grid
 - **Multi-Canvas Grid**: Work with multiple sub-canvases (up to 16x16 grid) in a single project.
 - **Ghost Overlay**: See faint outlines of drawings from other canvases to perfectly align your artwork.
 - **Smart Navigation**: Smooth panning (Middle-mouse), precise zooming (up to 512x), and auto-adjusting H/V scrollbars.
 - **Smart Scrolling**: Scroll wheels naturally navigate the sidebar panel without accidentally changing numerical values, unless focused.
 
-### ✨ Smart Effects & Auto-Shading
+### Smart Effects & Auto-Shading
 - **Auto-Shade**: Automatically generate 3D-like lighting, shadows, reflections, and edge shadows. Includes per-canvas custom centering points.
 - **Stone Pits**: Add rough, rocky textures with customizable depth and chance.
 - **Striped Surface & Plank Lines**: Create wood or striped materials instantly.
 
-### 📁 File Management
+### File Management
 - **Project Files (.pxb)**: Save and load your entire grid, layers, and settings in a single JSON-based file.
 - **Import/Export PNG**: Standard image import and composite grid export.
 - **Merge Tools**: Merge all canvases into a single PNG or merge two external PNG files together via alpha-overlay.
 - **Undo/Redo**: 50 levels of history to keep your workflow safe.
 
-## 🚀 Installation
+## Installation
 
 ### For Users (Ready-to-Run)
 1. Go to the [Releases](https://github.com/Zacky019283/Pick-celling/releases) page.
@@ -56,7 +56,7 @@ Alternatively, via CLI:
 To build a self-contained single-file executable:
 dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o publish
 
-## ⌨️ Keyboard Shortcuts
+## Keyboard Shortcuts
 
 | Key | Action |
 | :--- | :--- |
@@ -70,16 +70,16 @@ dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=
 | **Alt+Click** | Pick color under cursor |
 | **Middle-Mouse Drag** | Pan around the canvas |
 
-## ⚙️ Configuration
+## Configuration
 
 Application settings (window size, recent files) and exported textures are saved automatically in your local AppData folder:
 **%APPDATA%\Pick-celling**
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome! 
 If you have ideas for new features, bug fixes, or UX improvements, feel free to open an issue or submit a pull request.
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
