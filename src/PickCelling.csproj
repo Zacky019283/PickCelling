@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AssemblyName>Pick-celling</AssemblyName>
+    <RootNamespace>PickCelling</RootNamespace>
+    <Version>2.3.0</Version>
+    <Description>Pixel-art editor with multi-canvas grid, effects, and auto-shading.</Description>
+  </PropertyGroup>
+</Project>
