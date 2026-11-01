@@ -51,10 +51,15 @@ Originally ported from a Unity Editor tool, Pick-celling has evolved into a full
 4. Build and run the project (**F5**).
 
 Alternatively, via CLI:
-[di sini, bash]
+```bash
+dotnet build
+dotnet run --project src
+```
 
 To build a self-contained single-file executable:
+```bash
 dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o publish
+```
 
 ## Keyboard Shortcuts
 
