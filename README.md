@@ -29,6 +29,11 @@ Originally ported from a Unity Editor tool, Pick-celling has evolved into a full
 - **Stone Pits**: Add rough, rocky textures with customizable depth and chance.
 - **Striped Surface & Plank Lines**: Create wood or striped materials instantly.
 
+<figure>
+  <img src="docs/demo.gif" alt="Pick-celling Demo">
+  <figcaption><i>Demo: Painting a golden sword by applying Auto-Shade features and multi-canvas grid.</i></figcaption>
+</figure>
+
 ### File Management
 - **Project Files (.pxb)**: Save and load your entire grid, layers, and settings in a single JSON-based file.
 - **Import/Export PNG**: Standard image import and composite grid export.
